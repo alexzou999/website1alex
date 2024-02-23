@@ -17,12 +17,8 @@ body {
     cursor: pointer;
     transition: transform 3s ease;
 }
-.input {
+.search .input {
 font-size: 18px;
 background-color: white;
-}
-
-.search {
 transition: width 3s ease;
-
 }
