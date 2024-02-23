@@ -1,0 +1,22 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:aqua;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.btn {
+    background-color: lime;
+    position: relative;
+    cursor: pointer;
+}
+.input {
+font-size: 18px;
+background-color: white;
+}
