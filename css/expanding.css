@@ -21,4 +21,5 @@ height: 80vh;
 border-radius: 50px;
 color: white;
 cursor: pointer;
+flex: 50;
 }
