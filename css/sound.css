@@ -12,4 +12,5 @@ background-color: blueviolet;
     width: 25vw;
     display: flex;
     border-radius: 50px;
+    cursor: pointer;
 }
