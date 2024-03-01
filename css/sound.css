@@ -7,10 +7,9 @@ margin: 0;
 background-color: blueviolet;
 }
 
-.buttons {
+.btn {
     height: 10vh;
-    width: 25vw;
-    display: flex;
+    width: 10vw;
     border-radius: 50px;
     cursor: pointer;
 }
