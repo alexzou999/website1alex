@@ -10,5 +10,5 @@ background-color: blueviolet;
 .buttons {
     height: 80vh;
     width: 60vw;
-
+    display: flex;
 }
