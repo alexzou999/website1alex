@@ -9,7 +9,7 @@ background-color: blueviolet;
 
 .buttons {
     height: 10vh;
-    width: 50vw;
+    width: 25vw;
     display: flex;
     border-radius: 50px;
 }
