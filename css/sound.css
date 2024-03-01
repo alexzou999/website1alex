@@ -8,8 +8,8 @@ background-color: blueviolet;
 }
 
 .buttons {
-    height: 80vh;
-    width: 60vw;
+    height: 10vh;
+    width: 50vw;
     display: flex;
-    margin: 10px;
+    border-radius: 50px;
 }
