@@ -1,3 +1,7 @@
+
+
+
+
 body {
 height: 100vh;
 display: flex;
@@ -16,4 +20,5 @@ background-color: rbg(161,100,223);
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
 }
