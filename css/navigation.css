@@ -20,6 +20,7 @@ font-family: "Open Sans", sans-serif;
 
 .hero {
     background-image: url(images/NiagaraFalls.jpg);
-
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
