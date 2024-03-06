@@ -11,5 +11,4 @@ function fixNav() {
     } else {
         nav.classList.remove('active')
     }
-
 }
