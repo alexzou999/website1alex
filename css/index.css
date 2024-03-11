@@ -3,3 +3,8 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+.profile-picture {
+    border-radius: 50%;
+    height: 150vh;
+    width: 150vw;
+}
