@@ -35,3 +35,13 @@ nav ul li {
     padding: 40px;
     border-bottom: 2px solid rgba(200, 200, 200, 0.1);
 }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
