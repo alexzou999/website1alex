@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 nav {
-    background-color: var(--primary-color);
+    background-color: Cornflowerblue;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,8 +17,7 @@ nav {
     height: 100%;
     border-right: 2px solid rgba(200, 200, 200);
     z-index: 100;
-    color: white;
-    transform: translateX(-100%);
+    color: black;
     }
 
 nav .logo {
@@ -30,4 +29,9 @@ nav .logo img {
     height: 75px;
     width: 75px;
     border-radius: 50%;
+}
+
+nav ul li {
+    padding: 40px;
+    border-bottom: 2px solid rgba(200, 200, 200, 0.1);
 }
