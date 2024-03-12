@@ -54,8 +54,6 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-
-
 button,
 input[type='submit'] {
     background-color: var(--secondary-color);
