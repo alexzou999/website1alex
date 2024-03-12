@@ -26,12 +26,12 @@ nav {
     z-index: 100;
     color: white;
     transform: translateX(-100%);
-    }
+}
 
 nav .logo {
     padding: 30px 0;
     text-align: center;
-    }
+}
 
 nav .logo img {
     height: 75px;
@@ -54,6 +54,22 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+header {
+    color: black;
+    font-size: 130%;
+    position: relative;
+    padding: 40px 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 30px 0;
+}
+
 button {
     background-color: var(--secondary-color);
     border: 0;
@@ -69,4 +85,3 @@ button {
     top: 20px;
     left: 20px;
 }
-
