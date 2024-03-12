@@ -55,6 +55,12 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 header {
     color: black;
     font-size: 130%;
