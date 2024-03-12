@@ -10,6 +10,11 @@ body {
     justify-content: center;
     margin: 0;
 }
+
+body.show-nav {
+    transform: translateX(200px);
+}
+
 nav {
     background-color: Cornflowerblue;
     position: fixed;
@@ -20,6 +25,7 @@ nav {
     border-right: 2px solid rgba(200, 200, 200);
     z-index: 100;
     color: white;
+    transform: translateX(-100%);
     }
 
 nav .logo {
@@ -48,6 +54,8 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
+
+
 button,
 input[type='submit'] {
     background-color: var(--secondary-color);
@@ -65,3 +73,16 @@ input[type='submit'] {
     left: 20px;
 }
 
+
+.cta-btn {
+    padding: 12px 30px;
+    font-size: 20px;
+}
+
+.container {
+    padding: 15px;
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+
+}
