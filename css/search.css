@@ -10,16 +10,45 @@ body {
     justify-content: center;
     margin: 0;
 }
-
+.search {
+    height: 50px;
+    position: relative;
+}
+.search .btn{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    font-size: 24px;
+    background-color: white;
+    border: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
 .btn {
     background-color: lime;
     position: relative;
     cursor: pointer;
-    transition: transform 3s ease;
+    transition: transform 1s ease;
 }
 
 .search .input {
+    border: 0;
     font-size: 18px;
     background-color: white;
-    transition: width 3s ease;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    transition: width 1s ease;
+}
+.search .input:focus {
+    outline: none;
+}
+
+.search.active .input {
+    width: 200px;
+}
+
+.search.active .btn {
+    transform: translateX(198px);
 }
