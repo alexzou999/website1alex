@@ -11,6 +11,9 @@ body {
     margin: 0;
 }
 
+body.show-nav {
+    transform: translateX(200px);
+}
 
 nav {
     background-color: Cornflowerblue;
@@ -99,4 +102,18 @@ nav ul {
 
 .search.active .btn {
     transform: translateX(198px);
+}
+
+
+.toggle {
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50px;
+    left: 0px;
 }
